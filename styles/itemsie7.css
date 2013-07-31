@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+#searcheffectspos {
+	position: absolute;
+	left: 356px;
+	top: 150px;	
+	text-align: left;
+}
+
+#send {
+	background:url(../assets/itemsearchbutton.png);
+	background-repeat:no-repeat;
+	border:none;
+	width:107px;
+	height:52px;
+	overflow:hidden;
+	padding-top:50px;
+	cursor:pointer;
+}
+
+div.mainbox {
+	position:absolute;
+	left:0px;
+	top:-95px;
+}
+
+#levelpos {
+	position: absolute;
+	top: 16px;
+	left: 77px;
+	text-align: left;
+}
+
+#catpos {
+	position: absolute;
+	top: -33px;
+	left: 105px;
+	text-align: left;
+}
+
+#racepos {
+	top: 41px;
+}
+
+#classpos {
+	top: 66px;
+}
+
+#manufacturerpos {
+	position: absolute;
+	left: 137px;
+	top: -8px;
+	text-align: left;
+}
+
+#searcheffectspos {
+	position: absolute;
+	left: 357px;
+	top: 35px;	
+	text-align: left;
+}
+
+#searchpos {
+	position: absolute;
+	left: 357px;
+	top: 7px;
+	text-align: left;
+}
+
+#sortpos {
+	position: absolute;
+	left: 320px;
+	top: 64px;
+	text-align: left;
+}
+
+#steppos {
+	position: absolute;
+	left: 615px;
+	top: 64px;
+	text-align: left;
+}
+
+#submitpos {
+	position: absolute;
+	top: -6px;
+	left: 608px;
+	text-align: left;
+	z-index: 1;
+}
+
+div.baseinfopos {
+	position: relative;
+	left: 45px;
+	top: -55px;
+}
+
+div.moreinfopos {
+	left: 70px;
+	top: -5px;
+	position: relative;
+}
+
+div.buildinfopos {
+	left: 70px;
+	top: 25px;
+	position: relative;
+}
+
+div.dropinfopos {
+	left: 70px;
+	top: -5px;
+	position: relative;
+}
+
+div.moreinfobuttonpos {
+	position:absolute;
+	top:-40px;
+	left: -174px;
+}
+
+div.buildinfobuttonpos {
+	position:absolute;
+	top:-10px;
+	left: -174px;
+}
+
+div.dropinfobuttonpos {
+	position:absolute;
+	top:20px;
+	left: -174px;
+}
+
+td.dropinfo {
+	padding-top: 7px;
+	padding-bottom: 60px;
+	}
+
+div.feedback{
+	position: absolute;
+	text-align: center;
+	left: 645px;
+	top: 5px;
+}
+
+div.infotext {
+	width: 500px;
+	position: relative;
+	left: 30px;
+	top: -30px;
+}
+
+div.infoindent {
+	z-index: 5;
+}
+
+div.comp_info_pos {
+	position: relative;
+	left: 110px;
+	top: -75px;
+}

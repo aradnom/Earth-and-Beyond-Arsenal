@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+#form1 {
+}
+
+body {
+	background-color: #000000;
+	background-image: url(../assets/enbbg.jpg);
+	background-repeat: no-repeat;
+}
+
+p {
+	color: #c3a028;
+	font-family: "Segoe UI";
+}
+
+table.content {
+	font-family: "Segoe UI";
+	color: #c3a028;
+	background-color: #020b21;
+	padding: 10px;
+	width: 700px;
+}
+
+.newarticle {
+	min-width:100px;
+}
+
+.cell, table.content {
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #003570;
+	border-right-color: #002146;
+	border-bottom-color: #00142a;
+	border-left-color: #002146;
+}
+
+
+#username, #pwd {
+	border:none;
+	color:#af8f1f;
+	font-family:"Segoe UI";
+	background-color: #010510;
+}
+
+.success {
+	font-family: "Segoe UI";
+	font-size: 18px;
+	color: #a4d5ff;
+}
+
+a:link {
+	color:#7ed0f6;
+}
+
+.error {
+	font-family: "Segoe UI";
+	color: #CA0000;
+	font-size: 18px;
+}
+
+
+a:hover {
+	color:#c0ebff;
+}
+
+a:visited {
+	color:#1c86b7;
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+table.container {
+	margin: 0px;
+	padding: 0px;
+	z-index: 4;
+}
+
+div {
+	position:relative;
+}
+
+img, div { 
+	behavior: url(../styles/iepngfix.htc);
+}
+
+div.field {
+	color:#ffc600;
+	display:inline;
+}
+
+div.ttfieldbox {
+	background-color: #000812;
+	display: inline-block;
+	padding-top: 2px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	margin-top: 2px;
+	margin-right: 0px;
+	margin-bottom: 2px;
+	margin-left: 0px;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 2px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #003570;
+	border-right-color: #002146;
+	border-bottom-color: #00142a;
+	border-left-color: #002146;
+}
+
+div.ul{
+	background:url(../assets/tooltipulsmall.png);
+	background-repeat:no-repeat;
+	width:100px;
+	height:100px;
+	position: absolute;
+	left: -9px;
+	top: -7px;
+}
+
+td.content {
+	padding: 8px;
+	z-index: 4;
+}
+
+.ajaxtooltip{
+	position: absolute; /*leave this alone*/
+	display: none; /*leave this alone*/
+	width:auto;
+	max-width:400px;
+	min-height:100px;
+	left: 0; /*leave this alone*/
+	top: 0; /*leave this alone*/
+	font-family:"Segoe UI";
+	font-size:12px;
+	background: #020c17;
+	color:#5c94d3;
+	padding-right: 2px;
+	overflow:hidden;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #206fa5;
+	border-right-color: #143a54;
+	border-bottom-color: #091f2e;
+	border-left-color: #143a54;
+	z-index: 4;
+	padding-top: 2px;
+	padding-left: 4px;
+}

@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+#midbox {
+background-image:url(assets/midbox.png);
+background-repeat:no-repeat;
+}
+
+img, div, #midbox, #send, table, td { 
+	behavior: url("iepngfix.htc");
+}
